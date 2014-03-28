@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llComplexName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tvComplexNameName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".40"
+            android:text="@string/complex_name" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvComplexName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llComplexType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tvComplexTypeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".40"
+            android:text="@string/complex_type" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvComplexType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llWeightBefore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" >
+
+        <EditText
+            android:id="@+id/etWeightBefore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/traning_weight_before" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCountAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" >
+
+        <EditText
+            android:id="@+id/etCountAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/traning_count_action" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/traning_start" >
+    </Button>
+
+</LinearLayout>

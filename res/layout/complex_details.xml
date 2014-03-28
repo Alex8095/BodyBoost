@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvComplexName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvComplexType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnStartTraning"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/traning_start" >
+    </Button>
+    
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_exercise" >
+    </Button>
+    
+    <Button
+            android:id="@+id/btnCheckedExercise"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_exercise" >
+    </Button>
+
+    <ListView
+        android:id="@+id/lvExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

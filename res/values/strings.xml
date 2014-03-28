@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BodyBoost</string>
+    <string name="action_settings">BodyBoost</string>
+    <!-- action -->
+    <string name="details">Подробно</string>
+    <string name="create">Создать</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <!-- main -->
+    <string name="tranings">Тренировки</string>
+    <string name="complexes">Комплексы</string>
+    <string name="exercisees">Упражнения</string>
+    <string name="dictionarys">Справочники</string>
+    <string name="dictionary_values">Значения справочников</string>
+    <!-- complex -->
+    <string name="complex_name">Название комплекса</string>
+    <string name="complex_type">Тип комплекса</string>
+    <string name="create_complex">Добавить комплекс</string>
+    <!-- exercise -->
+    <string name="create_exercise">добавить упражнение</string>
+    <string name="select_exercise">выбрать упражнения</string>
+
+    <!-- dictionary -->
+    <string name="dictionary_name">Название справочника</string>
+    <string name="dictionary_code">Код справочника</string>
+    <string name="create_dictionary_value">Добавить значение справочника</string>
+    <string name="dictionary_value_name">Значение справочника</string>
+
+    <!-- exercise -->
+    <string name="exercise_name">Упражнение</string>
+
+    <!-- traning -->
+    <string name="repeat_traning">Повторить тренировку</string>
+    <string name="start_traning">Начать тренировку</string>
+    <string name="traning_weight_after">Вес после тренировки</string>
+    <string name="traning_weight_before">Вес до тренировки</string>
+    <string name="traning_count_action">Количество повторений</string>
+    <string name="traning_start">Начать тренировку</string>
+    <string name="traning_finish">Завершить тренеровку</string>
+
+</resources>

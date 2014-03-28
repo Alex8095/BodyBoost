@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnTraningStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="начать тренировку" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnTraningList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tranings" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnComplexList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/complexes" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnExerciseList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exercisees" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnDictionaryList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dictionarys" >
+    </Button>
+
+</LinearLayout>

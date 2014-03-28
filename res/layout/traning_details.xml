@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llComplexName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvComplexNameName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".40"
+            android:text="@string/complex_name" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvComplexName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llComplexType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvComplexTypeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:text="@string/complex_type" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvComplexType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llWeightBefore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvWeightBeforeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:text="@string/traning_weight_before" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvWeightBefore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llWeightAfter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvWeightAfterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:text="@string/traning_weight_after" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvWeightAfter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTimes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvDifferenceMinutesTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnRepeatTraning"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/repeat_traning" >
+    </Button>
+
+    <ListView
+        android:id="@+id/lvExerciseAction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

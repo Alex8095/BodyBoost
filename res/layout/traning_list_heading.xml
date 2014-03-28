@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvTraningComplexName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:paddingLeft="35sp" />
+
+    <TextView
+        android:id="@+id/tvTraningDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3" />
+
+    <TextView
+        android:id="@+id/tvTraningDifferenceTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3" />
+
+    <TextView
+        android:id="@+id/tvTraningDifferenceWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2" />
+
+</LinearLayout>

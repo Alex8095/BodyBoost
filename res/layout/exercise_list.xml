@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinnerExerciseType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create" >
+        </Button>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

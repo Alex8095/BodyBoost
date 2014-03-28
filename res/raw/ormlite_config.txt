@@ -1,0 +1,229 @@
+#
+# generated on 2013/12/09 01:22:48
+#
+# --table-start--
+dataClass=com.bodyboost.model.Action
+tableName=action
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=approach
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=weight
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=exercise
+columnName=exercise_id
+foreign=true
+useGetSet=true
+foreignAutoRefresh=true
+# --field-end--
+# --field-start--
+fieldName=traning
+columnName=traning_id
+foreign=true
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.bodyboost.model.Complex
+tableName=complex
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=user
+columnName=user_id
+foreign=true
+useGetSet=true
+foreignAutoRefresh=true
+# --field-end--
+# --field-start--
+fieldName=typeComplex
+columnName=type_complex_id
+foreign=true
+useGetSet=true
+foreignAutoRefresh=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.bodyboost.model.ComplexExercise
+tableName=complex_exercise
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=complex
+columnName=complex_id
+foreign=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=exercise
+columnName=exercise_id
+foreign=true
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.bodyboost.model.Exercise
+tableName=exercise
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=pos
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=typeExercise
+columnName=type_exercise_id
+foreign=true
+useGetSet=true
+foreignAutoRefresh=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.bodyboost.model.Traning
+tableName=traning
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=weightBefore
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=weightAfter
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=date
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=timeStart
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=timeFinish
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=countAction
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=user
+columnName=user_id
+foreign=true
+useGetSet=true
+foreignAutoRefresh=true
+# --field-end--
+# --field-start--
+fieldName=complex
+columnName=complex_id
+foreign=true
+useGetSet=true
+foreignAutoRefresh=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.dictionary.model.Dictionary
+tableName=dictionary
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=dictionaryValueList
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.dictionary.model.DictionaryValue
+tableName=dictionary_value
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=dictionary
+columnName=dictionary_id
+foreign=true
+foreignAutoRefresh=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.user.model.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=login
+# --field-end--
+# --field-start--
+fieldName=password
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

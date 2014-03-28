@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvComplexName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvComplexType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" >
+    </Button>
+
+    <ListView
+        android:id="@+id/lvComplexExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bodyboost"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.alextsurkin.bodyboost.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ComplexDetailsActivity"></activity>
+        <activity android:name="ComplexControlActivity"></activity>
+        <activity android:name="ComplexListActivity"></activity>
+        <activity android:name="ComplexExerciseListActivity"></activity>
+        <activity android:name="ExerciseControlActivity"></activity>
+        <activity android:name="ExerciseDetailsActivity"></activity>
+        <activity android:name="ExerciseListActivity"></activity>
+        <activity android:name="TraningStartActivity"></activity>
+        <activity android:name="TraningControlActivity" android:windowSoftInputMode="adjustPan"></activity>
+        <activity android:name="TraningDetailsActivity"></activity>
+        <activity android:name="TraningListActivity" android:windowSoftInputMode="adjustPan"></activity>
+        <activity android:name="DictionaryControlActivity"></activity>
+        <activity android:name="DictionaryListActivity"></activity>
+        <activity android:name="DictionaryValueControlActivity"></activity>
+        <activity android:name="DictionaryDetailsActivity"></activity>
+    </application>
+
+</manifest>
